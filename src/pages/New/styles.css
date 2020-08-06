@@ -1,0 +1,28 @@
+label#imagem {
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label#imagem input {
+    display: none;
+}
+
+#camera {
+    min-width: 20px;
+    max-width: 80px;
+}
+
+label#imagem.has-imagem {
+    border: 0;
+}
+
+label#imagem.has-imagem img {
+    display: none;
+}
